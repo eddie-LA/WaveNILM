@@ -43,9 +43,13 @@ To run a denoised scenario on appliances number 8,14,16, with all other paramete
 
 ## Comparison to NILMTK appliances
 6 - washer dryer in NILMTK (clother washer in basement)
+
 8 - dish washer in NILMTK (dish washer in kitchen)
+
 9 - unknown in NILMTK / Home office electronic workbench ()
+
 12 - unknown in NILMTK / Forced Air Furnace and Thermostat (HVAC gas in winter, electricity otherwise)
+
 14 - heat pump in NILMTK (heat pump outside)
 
 
