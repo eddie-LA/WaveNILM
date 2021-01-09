@@ -82,7 +82,9 @@ class NILMdata(object):
 		# noise_mode = 2, is a modeled noise, where we give the aggregate noise measurement (all other appliances) 
 		# to the network as ground truth for training.
 			X0 = np.zeros((time_inds[1]-time_inds[0],self.agg_pow.shape[1]))
+			print(X0)
 			for i in range(self.agg_pow.shape[1]):
+				print(X0)
 				X0[:,i]  = self.agg_pow[time_inds[0]:time_inds[1],i].squeeze()/meter_max[i]
 			Y0 = self.gr_tru[time_inds[0]:time_inds[1],app_inds,0]/meter_max[0]
 			N = X0[:,0]-Y0.sum(1)			
